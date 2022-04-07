@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  web:
+    image: ghcr.io/endigo/ebarimt:latest
+    ports:
+      - 8080:8080
+    # restart: always
+    environment:
+      - API_KEY=changemeinprod
+      - LICENSE_KEY=12345678
+    volumes:
+      - ./vatps:/root/.vatps
+      - ./poslib:/poslib
