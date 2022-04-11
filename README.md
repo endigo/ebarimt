@@ -6,6 +6,10 @@
 docker pull registry.gitlab.com/endigo/ebarimt:latest
 ```
 
+## License үүсгэх
+
+[https://posapi.vercel.app](https://posapi.vercel.app)
+
 ## Жишээ ажиллуулах
 
 1. `git clone git@github.com:endigo/ebarimt.git`
