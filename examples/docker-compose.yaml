@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    image: ghcr.io/endigo/ebarimt:latest
+    image: registry.gitlab.com/endigo/ebarimt
     ports:
       - 8080:8080
     # restart: always
