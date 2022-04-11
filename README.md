@@ -1,5 +1,11 @@
 # ebarimt as a HTTP service
 
+## Docker image
+
+```
+docker pull registry.gitlab.com/endigo/ebarimt:latest
+```
+
 ## Жишээ ажиллуулах
 
 1. `git clone git@github.com:endigo/ebarimt.git`
